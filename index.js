@@ -37,7 +37,7 @@ function total() {
   // write your code here
   var len = cart.length;
   var cost = Number('0');
-  for (var i < len; i++) {
+  for (var i =0; i < len; i++) {
     var ca = cart[i]['itemPrice'];
     ca = Number(ca);
     cost = cost + ca;
